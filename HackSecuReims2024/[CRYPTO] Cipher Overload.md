@@ -1,8 +1,12 @@
 ## Description :scroll:
 
-Le stagiaire vient de découvrir le concept de chiffrement et vous lance un défi.
+Le stagiaire vient de découvrir le concept de chiffrement et à décidé de vous lancer un défi.
 
-Retrouvez la chaîne originale qu'il a encodé.
+Trouvez la chaîne originale qu'il a encodé.
+
+Format du flag:
+
+ - `Le flag entier y compris HSR{}`
 
 ## Principe 💭
 
