@@ -1,6 +1,6 @@
 ## Description :scroll:
 
-Un ami fan de GeoGuessr à fait une liste de lieux qu'il trouve insolites ou intéréssants et ils vous demande de répondre à ces questions :
+Un ami fan de GeoGuessr a fait une liste de lieux qu'il trouve insolites ou intéressants et il vous demande de répondre à ces questions :
 
 1. Quel message peux-tu lire ?
 2. En quelle police est-il écrit ?
