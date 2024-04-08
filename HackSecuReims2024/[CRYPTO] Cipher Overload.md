@@ -10,7 +10,7 @@ Utilisation de multiples encodages sur une même chaîne de caractère.
 
 ## Write-up 📝
 
-Le flag à été encodé une dixaine de fois, donc il va falloir passer par dix étapes pour le retrouver.
+Le flag a été encodé une dizaine de fois, donc il va falloir passer par dix étapes pour le retrouver.
 
 #### 1. La première partie du challenge porte sur le dernier encodage appliqué
 
@@ -42,7 +42,7 @@ Il était donc reconnaissable à la présence de certains caractères spécifiqu
 OHJod251MWtqYnl3cnFrcWdpZ2lxMTRrZXJoZm9vM2llZjhkcm8zM2p5NWRlb2tvamU0dWNxbnVndzVyczF0ejhianVlcG44amFod3dvdDNlcjRmeTFua2t5aGZvYzRtZXBnaWV0dDNnaWJkZXRrcWdlNHdudXRzZ3RlcncxMW9nMzhkcjEzYWpweXVncWozZ3BndzQxMWJranl3aG9qd2tqYnd3b2tuOGZiZGtva2trdG5kb3Riemd0bXd3MTFmOGI4ZHJ1dGFqYTNyZ3FqM2djM3duMWIzamp5aWdja3FqaWZpZ3V0M2dyNGRrb2txZWZ5d25xamlqaWJ3aDF0c2VmbmRjdWpzanBrcmtxa3VndDhycXUxYmppeXdvcGtwa2I4cm53M2FqaWtka3Bua2t0eXVvc2J6Z3Rkd28xdDNlZjhka3Bqcw==
 ```
 
-Avec le double égal a la fin, il s'agit bien du [Base64](https://www.dcode.fr/code-base-64)
+Avec le double égal à la fin, il s'agit bien du [Base64](https://www.dcode.fr/code-base-64)
 
 Ce code se reconnaît au fait que le message codé est constitué d’un mélange de lettres majuscules et de lettres minuscules, avec également quelques chiffres, et de rares signes : + / =
 
@@ -66,7 +66,7 @@ Le codage z-base-32 est une variante de la base 32 (norme RFC 3548) proposée pa
 
 Encore une version du Base-32 qui cette fois-ci se nomme [Base-32 Crockford](https://www.dcode.fr/code-base-32-crockford)
 
-La base-32 imaginée par Douglas Crockford est une variante de la base 32 voulant optimiser l'écriture et la lecture par l'homme et y ajoutant une somme de controle. La Crockford base-32 utilise 32 caractères 0123456789ABCDEFGHJKMNPQRSTVWXYZ soit les 36 caractères alphanumériques excluant I,L,O pour ne pas les confondre des chiffres et la lettre U ce qui permet d'éviter des jeux de mots (U=You).
+La base-32 imaginée par Douglas Crockford est une variante de la base 32 voulant optimiser l'écriture et la lecture par l'homme et y ajoutant une somme de contrôle. La Crockford base-32 utilise 32 caractères 0123456789ABCDEFGHJKMNPQRSTVWXYZ soit les 36 caractères alphanumériques excluant I,L,O pour ne pas les confondre des chiffres et la lettre U ce qui permet d'éviter des jeux de mots (U=You).
 
 #### 6. And another one ? Non
 
@@ -74,7 +74,7 @@ La base-32 imaginée par Douglas Crockford est une variante de la base 32 voulan
 JUYEKMKNNJGXUTLLLEZE22SNGFHHU2ZTKFVGG6SOIVGTEULKJV5E4MCJGJIXUTL2JZVUKMCNNJNEETTLJF5E2VCZO5HHUUJRKFVFSMCONNIXUTTKKUYE4RKJGNHFIUJS
 ```
 
-Cette fois-ci il s'agit bien du [Base32](https://www.dcode.fr/code-base-32) originiel et pas d'une variante.
+Cette fois-ci il s'agit bien du [Base32](https://www.dcode.fr/code-base-32) originel et pas d'une variante.
 
 Le code Base32 est une norme d'encodage pour faciliter la transmission de chaines binaires via 32 caractères de la table ASCII.
 
@@ -84,7 +84,7 @@ Le code Base32 est une norme d'encodage pour faciliter la transmission de chaine
 M0E1MjMzMkY2MjM1Nzk3QjczNEM2QjMzN0I2QzMzNkE0MjZBNkIzMTYwNzQ1QjY0NkQzNjU0NEI3NTQ2
 ```
 
-Il s'aggit ici d'une variante du Base64 qui se nomme Base64URL. C'est une modification de la norme principale Base64, dont le but est la possibilité d'utiliser le résultat de l'encodage comme nom de fichier ou adresse URL.
+Il s'agit ici d'une variante du Base64 qui se nomme Base64URL. C'est une modification de la norme principale Base64, dont le but est la possibilité d'utiliser le résultat de l'encodage comme nom de fichier ou adresse URL.
 
 #### 8. Plus on se rapproche du début, plus c'est simple
 
@@ -116,7 +116,7 @@ Là le format du flag apparait mais ce ne sont pas les bonnes lettres.
 
 Il s'agit ici d'un chiffrement [ROT-13](https://www.dcode.fr/chiffre-rot-13)
 
-Dans la même ligné que le ROT-47 vu précédement, ROT-13 combine l'alphabet français/latin de 26 lettres et un décalage de 13, il remplace une lettre par une autre située treize rangs plus loin dans l'alphabet.
+Dans la même ligné que le ROT-47 vu précédemment, ROT-13 combine l'alphabet français/latin de 26 lettres et un décalage de 13, il remplace une lettre par une autre située treize rangs plus loin dans l'alphabet.
 
 ## Flag 🚩
 
